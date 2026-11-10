@@ -1,0 +1,19 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+ body{width:300px;margin:0;padding:16px;background:#0a0e1f;color:#e8ebff;font:14px system-ui,sans-serif}
+ h3{margin:0 0 10px;font-size:18px}
+ input,select{width:100%;margin-bottom:8px;padding:8px 10px;border-radius:8px;border:1px solid #2b3366;background:#151b40;color:#e8ebff;font:inherit;box-sizing:border-box}
+ button{width:100%;padding:10px;border:0;border-radius:999px;background:#e8ebff;color:#0a0e1f;font:500 14px system-ui;cursor:pointer}
+ p{color:#8f96c4;min-height:18px;margin:8px 0}
+ a{color:#4cc9f0}
+</style>
+<h3>Orbit</h3>
+<input id="company" placeholder="Company">
+<input id="role" placeholder="Role">
+<input id="location" placeholder="Location">
+<select id="status"><option value="applied">Applied</option><option value="wishlist">Wishlist</option><option value="interview">Interview</option><option value="offer">Offer</option><option value="rejected">Rejected</option></select>
+<button id="save">Save application</button>
+<p id="msg"></p>
+<a href="http://127.0.0.1:8000" target="_blank">Open tracker</a>
+<script src="popup.js"></script>
